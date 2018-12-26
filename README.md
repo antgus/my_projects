@@ -1,6 +1,15 @@
 # my_projects
 A short list describing some of my github projects
 
+- A simple python script that submits an AWS batch job and prints to stdout the logs. This has been useful in 2 previous projects: https://github.com/antgus/aws-batch-python-utils
+- An object-store / barebones-file-system abstraction: https://github.com/antgus/py-simple-s3-fs
+    - I created a similar library in a customer project, though the OpenSource version is a rewrite where I'm hoping to move towards a data-pipeline focused lib. Goal: do_something_and_store(source_path, target_path), should work the exact same whether source_path or target_path are in-memory, local disk, or s3.
+
+- An entry to google hashcode 2018 programming competition (4hr competition, scored top 10%, not my best work): https://github.com/antgus/hashcode2018-qualifier  (the problem statement can be found here: https://github.com/SerhiiKryvokin/hashcode-2018-Self-driving-rides/blob/master/statement.pdf)
+- I sometimes solve algorithm problems on Hackerrank. I've never been very active (level does not reflect skill level) but still, you can find:
+    - my profile: https://www.hackerrank.com/antoniogus
+    - some problem solutions here (note: not easy to understand without the problem statement, but that's copyrighted by hackerrank): https://github.com/antgus/hackerrank
+- My MSc thesis won an award: "Best MSc in AI field in Finland, 2008-2011". Video: https://www.youtube.com/watch?v=SrqBinukGvQ
 
 
 
